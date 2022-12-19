@@ -20,22 +20,30 @@ This page features a fully responsive User interface, with working links to both
 ### Flexbox
 
 Flexbox has been used to make the website more responsive. An instance of the flexbox that has been used:
+</br>
 ![flexbox code example](./images/readme-example-flexbox.JPG)
 
 ### Grid
 CSS Grid has been used to adjust contents on work section and give it a pattern.
+</br>
 ![grid code example](./images/readme-example-grid-code.JPG)
+</br>
 Hence, the website looks as below:
+</br>
 <img src=./images/readme-example-grid-layout.JPG alt="grid layout result" width=400px>
 
 ### Z-index Property
 Z-index has been used to adjust the items order in z-axis. In order to bring the image behind the text, the project description z-index has been set as 2 whilst the z-index of the project image is 1. The result can be seen below:
+</br>
 <img src=./images/readme-example-z-index.JPG alt="z-index layout result" width=400px>
 
 ### Clickable SVG
 SVG icons have been used in order to make links more attractive and user friendly. Links have been attached to SVG element by following this code:
+</br>
 <img src=./images/readme-example-svg-code.JPG alt="SVG code example" width=400px>
+</br>
 So, the SVG icons look as shown below:
+</br>
 <img src=./images/readme-example-svg-layout.JPG alt="SVG layout result" width=400px>
 
 </br>
