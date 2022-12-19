@@ -24,6 +24,7 @@
 
 }
 
+/* header & navigation bar */
 header {
   display: flex;
   align-items: center;
@@ -95,6 +96,7 @@ nav h1 {
   font-size: var(--fz-xs);
 }
 
+/* hero */
 .hero-banner {
   display: flex;
   -webkit-box-pack: center;
@@ -145,13 +147,25 @@ nav h1 {
   margin-top: 50px;
 }
 
+/* spacing between sections */
 .about-style,
 .project,
 .contact-style {
   margin-bottom: 300px;
 }
 
-.about-style ul {
+/* about me */
+.about-style .about-container {
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+  gap: 50px;
+}
+
+.about-style p {
+  margin: 0px 0px 15px;
+}
+
+.about-content .about-skill-list {
   display: grid;
   grid-template-columns: repeat(2, minmax(140px, 200px));
   gap: 0px 10px;
@@ -161,55 +175,34 @@ nav h1 {
   list-style: none;
 }
 
-.about-style ul li {
+.about-content .about-skill-list li {
   position: relative;
   margin-bottom: 10px;
   padding-left: 20px;
   font-family: var(--font-mono);
-  font-size: var(--fz-sm);
+  font-size: var(--fz-md);
 }
 
-.about-style ul li::before {
+.about-content .about-skill-list li::before {
   content: "▹";
   /* position: absolute; */
   left: 0px;
   color: var(--green);
-  font-size: var(--fz-md);
+  font-size: var(--fz-lg);
   line-height: 12px;
   padding-right: 5px;
 }
 
-.content-heading {
-  display: flex;
-  align-items: center;
-  position: relative;
-  margin: 10px 0px 40px;
-  width: 100%;
-  font-family: var(--font-mono);
-  font-size: clamp(26px,5vw,var(--fz-heading));
-  white-space: nowrap;
+.paragraph-color {
   color: var(--green);
 }
 
-.content-heading::after {
-  content: "";
-  display: block;
+.about-image {
   position: relative;
-  top: -5px;
-  width: 300px;
-  height: 1px;
-  margin-left: 20px;
-  background-color: var(--lightest-navy);
-}
-
-.content-text {
-  display: grid;
-  grid-template-columns: 3fr 2fr;
-  gap: 50px;
+  max-width: 300px;
 }
 
 /* work */
-
 .project-1-container,
 .project-2-container,
 .project-3-container {
@@ -352,6 +345,30 @@ svg {
   margin: 10px 5px 0px 5px;
   padding: 5px;
   cursor: pointer;
+}
+
+/* section heading */
+.content-heading {
+  display: flex;
+  align-items: center;
+  position: relative;
+  margin: 10px 0px 40px;
+  width: 100%;
+  font-family: var(--font-mono);
+  font-size: clamp(26px,5vw,var(--fz-heading));
+  white-space: nowrap;
+  color: var(--green);
+}
+
+.content-heading::after {
+  content: "";
+  display: block;
+  position: relative;
+  top: -5px;
+  width: 300px;
+  height: 1px;
+  margin-left: 20px;
+  background-color: var(--lightest-navy);
 }
 
 /* General */
