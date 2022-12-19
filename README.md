@@ -1,75 +1,74 @@
-# Unit 2 Challenge: Portfolio
+# Module 02 Challenge | Portofolio
 
-## Your Task
 
-This week, you'll build a portfolio page, which you can add to as the course progresses. 
+![badmath](https://img.shields.io/github/issues/YueHuaHua/module-02-challenge) ![badmath](https://img.shields.io/github/issues-pr-closed/YueHuaHua/module-02-challenge) ![badmath](https://img.shields.io/github/license/YueHuaHua/module-02-challenge)
 
-A portfolio of work can showcase your skills and talents to employers looking to fill a part-time or full-time position. An effective portfolio highlights your strongest work as well as the thought processes behind it. Students who have portfolios with deployed web applications (meaning they are live on the web) are typically very successful in their career search after the boot camp. This last point can’t be stressed enough: having several deployed projects is a minimum requirement to receive an initial interview at many companies. 
+</br>
 
-With these points in mind, in this challenge you’ll set yourself up for future success by applying the core skills you've recently learned: flexbox, media queries, and CSS variables. You'll get to practice your new skills while creating something that you will use during your job search. It’s a win-win that you'll likely be grateful for in the future!
+## Description
 
-**Note:** If you don't have enough web applications to showcase at this point, use placeholder images and names. You can change them to real applications as you create them later in the course.
+A simple, clean and responsive html portfolio page showing all my work and knowledge, technologies used, as well as links to my different social media accounts and downloadable resume. The portofolio consists of author's background description, author's project experience, and lastly the contact information. More information regarding projects completed will be added in time.
 
-## Acceptance Criteria
 
-Here are the critical requirements necessary to develop a portfolio that satisfies a typical hiring manager’s needs:
+![portfolio demo](./images/responsive-recording.gif)
+</br>
 
-* When the page is loaded the page presents your name, a recent photo or avatar, and links to sections about you, your work, and how to contact you
-* When one of the links in the navigation is clicked then the UI scrolls to the corresponding section
-* When viewing the section about your work then the section contains titled images of your applications
-* When presented with the your first application then that application's image should be larger in size than the others
-* When images of the applications are clicked then the user is taken to that deployed application
-* When the page is resized or viewed on various screens and devices then the layout is responsive and adapts to my viewport
+## Features
 
-## Mock-Up
+This page features a fully responsive User interface, with working links to both existing projects, deployed and running live on github, as well as active repositories and own linkedIn page.
 
-The following animation shows the web application's appearance and functionality:
+### Flexbox
 
-![portfolio demo](./images/01-css-challenge-demo.gif)
+Flexbox has been used to make the website more responsive. An instance of the flexbox that has been used:
+![flexbox code example](./images/readme-example-flexbox.JPG)
 
-Feel free to use your own colors and images.
+### Grid
+CSS Grid has been used to adjust contents on work section and give it a pattern.
+![grid code example](./images/readme-example-grid-code.JPG)
+Hence, the website looks as below:
+<img src=./images/readme-example-grid-layout.JPG alt="grid layout result" width=400px>
 
-## Grading Requirements
+### Z-index Property
+Z-index has been used to adjust the items order in z-axis. In order to bring the image behind the text, the project description z-index has been set as 2 whilst the z-index of the project image is 1. The result can be seen below:
+<img src=./images/readme-example-z-index.JPG alt="z-index layout result" width=400px>
 
-This challenge is graded based on the following criteria: 
+### Clickable SVG
+SVG icons have been used in order to make links more attractive and user friendly. Links have been attached to SVG element by following this code:
+<img src=./images/readme-example-svg-code.JPG alt="SVG code example" width=400px>
+So, the SVG icons look as shown below:
+<img src=./images/readme-example-svg-layout.JPG alt="SVG layout result" width=400px>
 
-### Technical Acceptance Criteria: 40%
+</br>
 
-* Satisfies all of the above acceptance criteria.
+## Table of Contents
 
-### Deployment: 32%
+* [Installation](#installation)
+* [Usage](#usage)
+* [Credits](#credits)
+* [License](#license)
 
-* Application deployed at live URL.
+</br>
 
-* Application loads with no errors.
+## Installation
 
-* Application GitHub URL submitted.
+Installation not required at the moment, since this is a "plug and play" type of application. The user can simply run it locally by clicking on the "index.html" file and opening in either their default or preferred browser.
 
-* GitHub repository contains application code.
+</br>
 
-### Application Quality: 15%
+## Usage 
 
-* Application resembles the mock-up functionality provided in the challenge instructions.
+Simply click on the links required to be sent to the relevant piece of information.
 
-### Repository Quality: 13%
+</br>
 
-* Repository has a unique name.
+## Credits
 
-* Repository follows best practices for file structure and naming conventions.
+* SVG icons are obtained from [iconduck](https://iconduck.com/).
+* Z-index on work section is based on [CSS z-index Property](https://www.w3schools.com/cssref/pr_pos_z-index.php#:~:text=The%20z%2Dindex%20property%20specifies,with%20a%20lower%20stack%20order.) tutorial by [w3schools](https://www.w3schools.com/).
+* Font and color palette are inspired from [Portofolio](https://brittanychiang.com/) by [Brittany Chiang](https://github.com/bchiang7/).
 
-* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
+</br>
 
-* Repository contains multiple descriptive commit messages.
+## License
 
-* Repository contains quality readme with description, screenshot, link to deployed application.
-
-## Review
-
-You are required to submit BOTH of the following for review:
-
-* The URL of the deployed application.
-
-* The URL of the GitHub repository that contains your code. Give the repository a unique name and include a README file that describes the project.
-
----
-© 2022 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
+Licensed under the [MIT license](https://github.com/git/git-scm.com/blob/main/MIT-LICENSE.txt). See LICENSE for the full details.
