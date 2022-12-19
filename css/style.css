@@ -99,9 +99,7 @@ nav h1 {
 /* hero */
 .hero-banner {
   display: flex;
-  -webkit-box-pack: center;
   justify-content: center;
-  -webkit-box-align: center;
   flex-direction: column;
   align-items: flex-start;
   min-height: 100vh;
@@ -149,8 +147,7 @@ nav h1 {
 
 /* spacing between sections */
 .about-style,
-.project,
-.contact-style {
+.project {
   margin-bottom: 300px;
 }
 
@@ -185,7 +182,6 @@ nav h1 {
 
 .about-content .about-skill-list li::before {
   content: "▹";
-  /* position: absolute; */
   left: 0px;
   color: var(--green);
   font-size: var(--fz-lg);
@@ -307,7 +303,6 @@ nav h1 {
 /* Contact Me */
 .contact-style {
   max-width: 600px;
-  margin: 0px auto 100px;
   text-align: center;
   margin-top: 300px;
 }
@@ -369,6 +364,15 @@ svg {
   height: 1px;
   margin-left: 20px;
   background-color: var(--lightest-navy);
+}
+
+/* Footer */
+footer{
+  font-family: var(--font-mono);
+  color: var(--light-slate);
+  font-size: var(--fz-xs);
+  text-align: center;
+  margin-bottom: 50px;
 }
 
 /* General */
