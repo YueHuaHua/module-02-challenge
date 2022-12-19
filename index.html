@@ -21,7 +21,7 @@
           <li><a href="#contact">Contact</a></li>
         </ol>
         <div>
-          <a class="resume-button" href="/resume.pdf" target="_blank" rel="noopener noreferrer">Resume</a>
+          <a class="resume-button" href="./resume.pdf" target="_blank" rel="noopener noreferrer">Resume</a>
         </div>
       </div>
     </nav>
@@ -45,7 +45,7 @@
       <!-- about me -->
       <section class="page-section about-style" id="about">
         <h2 class="content-heading">01. About Me</h2>
-        <div>
+        <div class="content-text">
           <p>
             Hello! My name is Arum and I enjoy creating things that live on the internet. My interest in web development started back in 2012 when I decided to try editing custom Tumblr themes - turns out hacking together a custom reblog button taught me a lot about HTML & CSS!
           </p>
@@ -64,9 +64,9 @@
             <li>VS Code</li>
           </ul>
         </div>
-        <div>
-          
-        </div>
+        <!-- <div class="image-wrapper">
+          <img src="./images/Me.jpg" alt="A photo of Arum in graduation robe">
+        </div> -->
       </section>
 
       <!-- portfolio container -->
@@ -125,16 +125,37 @@
         </a>
 
       <!-- contact -->
-      <section class="page-section contact" id="contact">
+      <section class="page-section contact contact-style" id="contact">
         <h2>03. What's Next?</h2>
         <h3>Get In Touch</h3>
         <p>Currently, I'm seeking for any new opportunities. Whether you have a question or just want to say hi, I'll try my best to get back to you!</p>
-        <div>
-          <a href="tel:555.555.5555">555.555.5555</a>
-          <a href="mailto:lernantino@website.com">lernantino@website.com</a>
-          <a href="https://github.com/YueHuaHua/" target="_blank">GitHub</a>
-          <a href="https://twitter.com/" target="_blank">Twitter</a>
-          <a href="https://open.spotify.com/" target="_blank">Spotify</a>
+        <div class="contact-bar">
+          <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+            <a xlink:href="tel:555.555.5555" aria-label="phone icon">
+            <path fill="#64ffda" d="m20.33 21.48 2.24-2.24a2.19 2.19 0 0 1 2.34-.48l2.73 1.09a2.18 2.18 0 0 1 1.36 2v5a2.17 2.17 0 0 1 -2.28 2.15c-19.13-1.19-22.99-17.39-23.72-23.59a2.17 2.17 0 0 1 2.17-2.41h4.83a2.16 2.16 0 0 1 2 1.36l1.09 2.73a2.16 2.16 0 0 1 -.47 2.34l-2.24 2.24s1.29 8.73 9.95 9.81z"/>
+            </a>
+          </svg>
+          <svg enable-background="new 0 0 52 52" height="52" viewBox="0 0 52 52" width="52" xmlns="http://www.w3.org/2000/svg">
+            <a xlink:href="mailto:bulanarum@gmail.com" aria-label="email icon">
+              <path fill="#64ffda" d="m24.9 30.1c.6.6 1.5.6 2.1 0l22.6-21c.4-.8.3-2.1-1.3-2.1l-44.7.1c-1.2 0-2.2 1.1-1.3 2.1z"/>
+              <path fill="#64ffda" d="m50 17.3c0-1-1.2-1.6-2-.9l-17.7 16.3c-1.2 1.1-2.7 1.7-4.3 1.7s-3.1-.6-4.3-1.6l-17.6-16.4c-.8-.7-2-.2-2 .9-.1-.3-.1 22.7-.1 22.7 0 2.2 1.8 4 4 4h40c2.2 0 4-1.8 4-4 0-6 0-18.2 0-22.7z"/>
+            </a>
+          </svg>
+          <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <a xlink:href="https://github.com/YueHuaHua/" target="_blank" aria-label="github icon">
+              <path fill="#64ffda" d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/>
+            </a>
+          </svg>
+          <svg height="32" viewBox="0 0 32 32" width="32" xmlns="http://www.w3.org/2000/svg">
+            <a xlink:href="https://www.linkedin.com/in/arumbulan/" target="_blank" aria-label="linkedin icon">
+              <path fill="#64ffda" d="m8.268 28h-5.805v-18.694h5.805zm-2.906-21.244c-1.856 0-3.362-1.538-3.362-3.394s1.505-3.362 3.362-3.362 3.362 1.505 3.362 3.362c0 1.856-1.506 3.394-3.362 3.394zm24.632 21.244h-5.792v-9.1c0-2.169-.044-4.95-3.018-4.95-3.018 0-3.481 2.356-3.481 4.794v9.256h-5.799v-18.694h5.567v2.55h.081c.775-1.469 2.668-3.019 5.492-3.019 5.875 0 6.955 3.869 6.955 8.894v10.269z"/>
+            </a>
+          </svg>
+          <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <a xlink:href="https://twitter.com/" target="_blank" aria-label="twitter icon">
+              <path fill="#64ffda" d="m23.954 4.569a10 10 0 0 1 -2.825.775 4.958 4.958 0 0 0 2.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 0 0 -8.384 4.482c-4.09-.193-7.715-2.157-10.141-5.126a4.822 4.822 0 0 0 -.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 0 1 -2.228-.616v.061a4.923 4.923 0 0 0 3.946 4.827 4.996 4.996 0 0 1 -2.212.085 4.937 4.937 0 0 0 4.604 3.417 9.868 9.868 0 0 1 -6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 0 0 7.557 2.209c9.054 0 13.999-7.496 13.999-13.986 0-.209 0-.42-.015-.63a9.936 9.936 0 0 0 2.46-2.548z"/>
+            </a>
+          </svg>
         </div>
       </section>
     </main>

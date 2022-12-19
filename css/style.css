@@ -6,6 +6,7 @@
   --nav-height: 100px;
   --green: #64ffda;
   --navy: #0a192f;
+  --navy-shadow: rgba(2,12,27,0.7);
   --slate: #8892b0;
   --lightest-slate: #ccd6f6;
   --font-sans: "Calibre","Inter","San Francisco","SF Pro Text",-apple-system,system-ui,sans-serif;
@@ -184,6 +185,56 @@ nav h1 {
   color: var(--green);
 }
 
+.content-text {
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+  gap: 50px;
+}
+
+/* .about-style .image-wrapper img {
+  min-width: 500px, 100vw;
+  height: 500px;
+  object-fit: cover;
+} */
+
+.contact-style {
+  max-width: 600px;
+  margin: 0px auto 100px;
+  text-align: center;
+}
+
+.contact-style h2 {
+  display: block;
+  margin-bottom: 20px;
+  color: var(--green);
+  font-family: var(--font-mono);
+  font-size: var(--fz-md);
+  font-weight: 400;
+}
+
+.contact-style h3 {
+  font-size: clamp(40px, 5vw, 60px);
+  text-align: center;
+}
+
+.contact-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  
+}
+
+svg {
+  width: 34px;
+  height: 34px;
+  background-color: transparent;
+  border: 1px solid var(--green);
+  border-radius: var(--border-radius);
+  cursor: pointer;
+  padding: 5px;
+  margin: 10px 5px 0px 5px;
+}
+
 ol {
   margin-block-start: 1em;
   margin-block-end: 1em;
@@ -204,6 +255,11 @@ a {
   color: inherit;
   position: relative;
 }
+
+/* a.svg {
+  position: relative;
+  display: inline-block;
+} */
 
 .content {
   margin: 0px auto;
