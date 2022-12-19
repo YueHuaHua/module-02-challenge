@@ -271,7 +271,6 @@ nav h1 {
   background-color: var(--light-navy);
   color: var(--light-slate);
   font-size: var(--fz-lg);
-  max-width: 600px;
 }
 
 .project-2-container .project-skill-list {
@@ -329,7 +328,6 @@ nav h1 {
 }
 
 .contact-style svg {
-  background-color: transparent;
   border: 1px solid var(--green);
   border-radius: var(--border-radius);
 }
