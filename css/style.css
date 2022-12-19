@@ -260,6 +260,8 @@ nav h1 {
 .project-title {
   color: var(--lightest-slate);
   font-size: clamp(24px, 5vw, 28px);
+  position: relative;
+  z-index: 2;
 }
 
 .project-description {
